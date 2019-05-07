@@ -1,0 +1,621 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+/* loadding */
+
+.loading-shade {
+    width: 240px;
+    height: 52px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding-left: 30px;
+    line-height: 52px;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 16px;
+    opacity: 0.8;
+    z-index: 9999;
+    background: #333333;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+.loadding {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.page-container.horizontal-menu header.navbar .navbar-brand {
+    padding-left: 45px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.login-page .login-header .title {
+    color: #9e9e9e !important;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    -moz-transition: all 450ms ease-in-out;
+    -webkit-transition: all 450ms ease-in-out;
+    -o-transition: all 450ms ease-in-out;
+    transition: all 450ms ease-in-out;
+}
+
+.login-page .login-header {
+    padding: 30px 0;
+}
+
+.table-bordered > thead > tr > th {
+    color: #333333;
+    font-size: 13px;
+}
+
+.profile-info.dropdown > a img {
+    border: 0;
+}
+
+.profile-info.dropdown > a {
+    font-size: 14px !important;
+}
+
+table.dataTable {
+    margin: 0 !important;
+    border-collapse: collapse !important;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 0 !important;
+}
+
+.div.dataTables_paginate a.previous:before {
+    font-szie: 16px;
+}
+
+div.dataTables_paginate a.paginate_button.first, div.dataTables_paginate a.paginate_button.previous {
+    padding-left: 16px;
+}
+
+.page-body .select2-container .select2-choice {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 9px;
+}
+
+.page-body .select2-container .select2-choice .select2-arrow {
+    width: 30px;
+}
+
+.dataTables_wrapper > div .select2-container {
+    min-width: 66px;
+}
+
+#toast-container.toast-center > div {
+    width: 50%;
+    margin: auto;
+}
+
+.toast-center {
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-blue {
+    color: #21a9e1;
+}
+
+.color-nacarat {
+    color: #ee4749;
+}
+
+.color-gold {
+    color: #ffa812;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-green{
+    color: #00a651;
+}
+.color-orange{
+    color: #ff9600;
+}
+.color-black{
+    color:#303641;
+}
+.color-gray{
+    color:#949494;
+}
+.bg-gold {
+    background-color: #ffa812;
+}
+.badge-orange {
+    color: #FFF;
+    background-color: #ff9600;
+}
+
+.mix-green-white {
+    background-color: #00a651;
+    color: #fff;
+}
+
+.breadcrumb > li {
+    font-size: 14px;
+}
+
+.font-14 , .nav li > a {
+    font-size: 14px !important;
+}
+
+.font-16{
+    font-size: 16px !important;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}
+.font-28{
+    font-size:28px !important;
+}
+
+.table.datatable > thead > tr > th {
+    text-align: center;
+    min-width: 80px;
+}
+
+.td.label {
+    padding: 6px;
+}
+
+.table.datatable td .btn {
+    margin-right: 15px;
+}
+
+.table.datatable td .btn.icon-left {
+    padding-left: 29px;
+}
+
+.label.disabled, .badge.disabled {
+    opacity: 0.65;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.form-button button {
+    margin-right: 8px;
+}
+
+.dropdown-menu.dropdown-infoblue {
+    background-color: #147197;
+    border-color: #0c455d;
+}
+
+.dropdown-menu.dropdown-infoblue > li, .dropdown-menu.dropdown-infoblue > li > a {
+    color: #fff;
+}
+
+.dropdown-menu.dropdown-infoblue > li:hover a,
+.dropdown-menu.dropdown-infoblue > li:active a {
+    background-color: #21a9e1;
+    color: #fff;
+}
+
+.dropdown-menu.dropdown-darkblue {
+    background-color: #005389;
+    border-color: #0c455d;
+}
+
+.dropdown-menu.dropdown-darkblue > li, .dropdown-menu.dropdown-darkblue > li > a {
+    color: #fff;
+}
+
+.dropdown-menu.dropdown-darkblue > li:hover a,
+.dropdown-menu.dropdown-darkblue > li:active a {
+    background-color: #0072BC;
+    color: #fff;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0 !important;
+}
+
+.btn-width-75 {
+    width: 75px;
+}
+.btn-width-90{
+    width: 90px;
+}
+.btn-width-100{
+    width: 100px;
+}
+.table.datatable > thead > tr > td {
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.table.datatable tr:hover {
+    background-color: #FFFDE0 !important;
+}
+
+.form-text {
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+
+.form-groups-bordered > .form-group.form-button{
+    border-bottom: 0;
+}
+
+.text-middle{
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+table.text-center td{
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+table.text-center td .text-intro{
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    vertical-align: middle !important;
+    text-overflow: ellipsis !important;
+    text-indent: 1.7em;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+table.text-center td .text-intro-show{
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    text-indent: 1.7em;
+}
+table.text-center td.actions{
+    text-align: left;
+}
+table.text-center td.actions a.btn{
+    margin-right: 8px;
+}
+
+.btn.btn-square{
+    display: inline-block;
+    width: 72px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 -1px -1px rgba(0,0,0,0.2)!important;
+    border: 0;
+    border-radius: 12px;
+    padding: 12px 0 8px;
+    margin: 2px;
+    line-height: 1.7;
+    position: relative;
+    margin-bottom: 22px;
+    margin-right: 2%;
+}
+
+.btn.btn-square>[class*=entypo] {
+    display: block;
+    font-size: 24px;
+    margin: 0 0 4px;
+    line-height: 16px;
+    min-width: 0;
+    padding: 0;
+}
+.btn.btn-square.radius-4 {
+    border-radius: 4px;
+}
+.no-border , .tab-content > .dataTables_wrapper{
+    border: 0 !important;
+}
+
+.no-border > .dataTable{
+    border-left:1px solid #ebebeb !important;
+    border-right:1px solid #ebebeb !important;
+}
+
+.dataTables_wrapper .dataTables_paginate li.active a.paginate_button{
+    background: #262b34 !important;
+    color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate a.paginate_button {
+    margin: 0;
+    background: #fff !important;
+    border-right: 1px solid #ebebeb !important;
+}
+.cursor-pointer{
+    cursor: pointer;;
+}
+li.disabled > span{
+    border: 0;
+    padding: 6px 12px !important;
+}
+div.season-filter{
+    padding-bottom: 0px !important;
+}
+div.season-filter .dropdown-menu{
+    margin-left: 10px;
+}
+.viewer-button{
+    background-color: rgba(255, 0, 0, 0.6) !important;
+}
+.padding-left-none{
+    padding-left: 0 !important;
+}
+
+.page-body .main-content .cbp_tmtimeline > li .cbp_tmicon.bg-orange {
+    background-color: #ff9600;
+    color: #fff;
+}
+
+.cbp_tmtimeline.custom-variant > li .cbp_tmtime{
+    width: 15% !important;
+    padding-right: 50px;
+}
+.cbp_tmtimeline.custom-variant:before{
+    background: #ffffff;
+    left: 15%;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmicon{
+    left: 15%;
+    float: left;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel{
+    /*background: rgb(48, 54, 65) !important;*/
+    color: #242527 !important;
+    margin: 0 0 15px 17.2%;
+    width:70%;
+    min-width: 310px;
+    min-height: 72px;
+    margin-bottom: 45px !important;
+    float: inherit;
+}
+
+/*.cbp_tmtimeline.custom-variant > li  .cbp_tmlabel:after {
+    border-right-color: #303641;
+}*/
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel .col-md-1{
+    width:5%;
+    font-size: 28px;
+    font-weight: bolder;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    float: none;
+    display: inline-block;
+    padding: 0;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel .col-md-6{
+    width:47.1%;
+    min-width: 268px;
+    float: none;
+    display: inline-block;
+    padding: 15px 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel .col-xs-2{
+    width: 18%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    float: none;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel .col-md-6 .image{
+    margin: 7px 0px;
+}
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel .col-md-6 .col-xs-2  span{
+    width: 100%;
+    max-width: 81px;
+    min-height: 22px;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    margin: 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel img{
+    border-radius: 50%;
+}
+
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel  .badge {
+    position: absolute;
+    padding: 2px;
+    font-size: 10px;
+    right: 12px;
+    top: 1px;
+    min-width: 17px;
+    line-height: 12px;
+}
+
+.cbp_tmtimeline.custom-variant > li .cbp_tmlabel p.league-info{
+    color: #f56954;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#game.list-view{
+    margin-top: 5%;
+}
+#game.list-view .empty{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    min-height: 100px;
+    line-height: 100px;
+}
+#game .pagination{
+    float: right;
+    margin-right: 13%;
+}
+#game .pagination span{
+    border: 1px solid #ddd;
+}
+
+.game-search-filter{
+    margin-right: 12%;
+    padding: 0;
+}
+.game-refresh{
+    margin-left: 13.6%;
+    width: 50px;
+}
+#game  span.badge{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 5px;
+    font-size: 18px;
+    right: 48%;
+    top: -18px;
+    min-width: 17px;
+    line-height: 22px;
+    border-radius: 50%;
+}
+.top-pager{
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-left-8{
+    padding-left:8px;
+}
+
+.border-success{
+    border: 1px solid #00a651;
+}
+
+.border-fail{
+    border:1px solid #cc2424;
+}
+.border-same{
+    border:1px solid #fad839;
+}
+.border-info{
+    border:1px solid #0d7eff;
+}
+
+.tile-stats .icon {
+    right: 15px;
+    bottom: 50px;
+}
+form .form-group p{
+    margin: 0;
+    line-height: 28px;
+    font-size: 14px;
+    color: #000000;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.medal-list{
+    padding-right:0;
+    max-width: 614px;
+    max-height: 480px;
+    overflow:scroll;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.gallery-env article.image-thumb .image img{
+    max-height: 60px;
+}
+.chart-height-420{
+    height: 420px !important;
+}
+/*20180410 联赛列表简介高度*/
+table.table-bordered td.text-mess {
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    vertical-align: middle !important;
+    text-overflow: ellipsis !important;
+    text-indent: 1.7em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    border-bottom:0;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:0px
+}
+table.table-bordered td.text-mess-show {
+    width:100%;
+    min-height:100px;
+    text-aligin:left;
+    text-indent:1.7em;
+}
+
+.pubg-custom-slide{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.pubg-custom-label{
+    margin-left: 2%;
+}
+.pubg-custom-radio{
+    margin-top: -2%;
+}
+.pubg-custom-circle-slide{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.pubg-custom-circle-label{
+    margin-left: 3%;
+}
+.input-style{
+    width: 100px;float: right;border:0.5px solid #378888
+}
+.input-color{
+    border:0.5px solid #378888
+}
+.sidebar-mobile-menu{
+    margin-right: 30%
+}

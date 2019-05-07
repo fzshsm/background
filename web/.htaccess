@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+<IfModule dir_module>
+    DirectoryIndex dev.php
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ dev.php?_url=/$1 [QSA,L]
+</IfModule>
